@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // check conndition for drawer item with menu item
         return if (actionBarDrawerToggle.onOptionsItemSelected(item)){
             true
         }else{
